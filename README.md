@@ -48,3 +48,19 @@ We created a custom dataset with manually recorded audio and video samples from 
 
 
 ---
+## 🧠 Technologies Used
+
+- 🤖 **Deep Learning Models**  
+  We trained TTS and Voice Cloning and Lipsynch models using deep learning on our 5-speaker dataset.
+
+- 📱 **Mobile App**  
+  The frontend is developed in **React Native** to make it easy to use on mobile devices.
+
+- 🛠️ **Flask API**  
+  A **Flask** server acts as a bridge between the mobile app and the **deep learning model.**
+
+- ☁️ **Model Hosting in Kaggle Notebook**  
+  The trained models are hosted and run inside **Kaggle Notebooks**, and the mobile app calls the Flask API to process the text, generate audio, and sync lips.
+
+---
+
