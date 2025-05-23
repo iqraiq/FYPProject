@@ -24,7 +24,8 @@ We created a custom dataset with manually recorded audio and video samples from 
 - **Output**: Realistic synthetic speech mimicking each speaker
 
 ### 2. Lip Syncing
-- **Tool**: [Wav2Lip] 
+- **Tool**: [Wav2Lip]
+- **Dataset Used**: Custom 5-speaker dataset 
 - **Input**: A video file + generated audio  
 - **Output**: A lip-synced video where the speaker appears to say the generated text
 
